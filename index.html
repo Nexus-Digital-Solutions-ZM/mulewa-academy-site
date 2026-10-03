@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mulewa Academy Football Club | Waterfalls, Lusaka</title>
+<meta name="description" content="Football for boys and girls aged 6 to 14 in Meanwood, Waterfalls, Lusaka. Register your child, join the tournament and make a player card.">
+<meta name="theme-color" content="#081230">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mulewa Academy Football Club">
+<meta property="og:description" content="Fun, fair play and friendship. Football for boys and girls aged 6 to 14 in Waterfalls, Lusaka.">
+<meta property="og:image" content="assets/flyer.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#081230;--navy2:#0f2150;--gold:#f2b01e;--blue:#2f63f0;--bg:#081230;--text:#eef2ff;--mute:#aebbe0;--card:#0f2150;--line:#23387a;--alt:#f4f6fc;--alttext:#0f1c40;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--alt:#0c1a42;--alttext:#eef2ff}}
+:root[data-theme="dark"]{--alt:#0c1a42;--alttext:#eef2ff}
+html{scroll-padding-top:calc(60px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Figtree,system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
+h1,h2,h3{font-family:"Barlow Condensed","Arial Narrow",Impact,sans-serif;font-weight:800;line-height:.92;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:rgba(8,18,48,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font:800 21px "Barlow Condensed",sans-serif;text-decoration:none}
+.shield{width:auto;height:38px;border-radius:6px;display:block}
+nav{display:flex;gap:20px;font-weight:600;font-size:15px;align-items:center}
+nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--gold)}
+nav .cta{background:var(--gold);color:var(--navy);padding:7px 16px;border-radius:99px}
+@media(max-width:700px){nav a:not(.cta){display:none}}
+.hero{position:relative;padding:56px 0 0;overflow:hidden;background:radial-gradient(900px 500px at 80% 10%,#1b3b9a55,transparent 70%),var(--bg)}
+.lines{position:absolute;inset:0;opacity:.1}
+.hero h1{font-size:clamp(88px,22vw,250px);font-weight:900;letter-spacing:-2px;position:relative}
+.hero h1 .o{color:transparent;-webkit-text-stroke:2px var(--text);display:block}
+.hero h1 .g{color:var(--gold);display:block;margin-top:-.06em}
+.hero .row{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:end;position:relative;margin-top:20px}
+@media(max-width:780px){.hero .row{grid-template-columns:1fr}}
+.hero p{font-size:19px;color:var(--mute);max-width:44ch;margin:0 0 24px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;padding-bottom:48px}
+.btn{display:inline-block;padding:15px 26px;border-radius:12px;font-weight:700;text-decoration:none;border:2px solid var(--gold);cursor:pointer;font:700 16px Figtree,sans-serif;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.p{background:var(--gold);color:var(--navy)}
+.btn.s{background:transparent;color:var(--text)}
+.stage{height:260px;position:relative}
+.ball{position:absolute;left:50%;bottom:44px;width:120px;height:120px;margin-left:-60px;border-radius:50%;border:4px solid #0a1230;background:radial-gradient(circle at 50% 50%,#10193a 0 16%,transparent 17%),radial-gradient(circle at 30% 28%,#fff,#d7def2 70%);animation:bounce 1.6s cubic-bezier(.3,.7,.4,1) infinite alternate;box-shadow:inset -10px -10px 20px #0a123033}
+.ball:before,.ball:after{content:"";position:absolute;width:26px;height:26px;background:#10193a;border-radius:50%}
+.ball:before{left:6px;top:36px}.ball:after{right:8px;bottom:22px}
+.shadow{position:absolute;left:50%;bottom:30px;width:110px;height:16px;margin-left:-55px;border-radius:50%;background:#000;opacity:.4;animation:sh 1.6s cubic-bezier(.3,.7,.4,1) infinite alternate}
+@keyframes bounce{from{transform:translateY(-120px) rotate(0)}to{transform:translateY(0) rotate(200deg)}}
+@keyframes sh{from{transform:scale(.55);opacity:.15}to{transform:scale(1);opacity:.45}}
+.ticker{background:var(--gold);color:var(--navy);overflow:hidden;white-space:nowrap;border-block:3px solid var(--navy)}
+.ticker div{display:inline-block;padding:12px 0;font:900 28px "Barlow Condensed",sans-serif;animation:run 28s linear infinite}
+.ticker span{margin:0 22px}
+@keyframes run{to{transform:translateX(-50%)}}
+section{padding:80px 0}
+.alt{background:var(--alt);color:var(--alttext)}
+h2.t{font-size:clamp(44px,8vw,84px);margin-bottom:14px}
+.lede{max-width:56ch;font-size:18px;color:var(--mute);margin:0 0 40px}
+.alt .lede{color:inherit;opacity:.8}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:2px;background:var(--line);border-radius:16px;overflow:hidden}
+.stats div{background:var(--card);padding:26px}
+.stats b{display:block;font:900 56px "Barlow Condensed",sans-serif;color:var(--gold);line-height:1}
+.groups{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.grp{border:1px solid var(--line);border-radius:16px;padding:26px;background:var(--card);position:relative;overflow:hidden}
+.grp .age{font:900 96px "Barlow Condensed",sans-serif;color:#ffffff10;position:absolute;right:12px;top:-6px;line-height:1}
+.grp h3{font-size:34px;color:var(--gold);margin-bottom:8px;position:relative}
+.grp p{margin:0;color:var(--mute);position:relative}
+.event{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;align-items:center}
+@media(max-width:760px){.event{grid-template-columns:1fr}}
+.action{width:100%;height:auto;border-radius:16px;margin-bottom:22px;display:block;box-shadow:0 8px 24px #0003}
+.perks{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.perks li{display:flex;gap:14px;align-items:center;background:#fff;border-radius:12px;padding:16px 18px;font-weight:700;color:#0f1c40;box-shadow:0 2px 0 #d5dcf0}
+.perks li i{font-style:normal;font-size:26px}
+.builder{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+@media(max-width:760px){.builder{grid-template-columns:1fr}}
+form{display:grid;gap:14px}
+label{display:grid;gap:6px;font-weight:600;font-size:15px}
+input,select{font:inherit;padding:13px 14px;border-radius:10px;border:2px solid var(--line);background:#0b1740;color:var(--text)}
+input:focus,select:focus{border-color:var(--gold);outline:none}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{width:min(300px,100%);margin:0 auto;aspect-ratio:3/4.3;background:linear-gradient(160deg,#ffd666,var(--gold) 45%,#c98a0b);color:var(--navy);clip-path:polygon(0 0,100% 0,100% 90%,50% 100%,0 90%);padding:20px 22px;position:relative;transform:rotate(-3deg);filter:drop-shadow(0 20px 30px #0008);transition:transform .3s}
+.card:hover{transform:rotate(0) scale(1.03)}
+.card .num{font:900 84px "Barlow Condensed",sans-serif;line-height:1}
+.card .pos{font:800 22px "Barlow Condensed",sans-serif}
+.card .pic{width:130px;height:130px;border-radius:50%;background:var(--navy);color:var(--gold);display:grid;place-items:center;font:900 60px "Barlow Condensed",sans-serif;margin:6px auto 10px;border:5px solid #fff8}
+.card .nm{font:900 34px "Barlow Condensed",sans-serif;text-align:center;line-height:1;overflow-wrap:anywhere}
+.card .club{text-align:center;font-weight:700;font-size:13px;margin-top:4px}
+.card .age2{position:absolute;right:22px;top:24px;text-align:right;font-weight:700;font-size:14px}
+.tiers{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.tier{background:#fff;border-radius:16px;padding:26px;box-shadow:0 2px 0 #d5dcf0}
+.tier h3{font-size:34px;color:#1c3fc0;margin-bottom:8px}
+.tier p{margin:0;color:#33406b}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+@media(max-width:760px){.contact{grid-template-columns:1fr}}
+.cbox{display:grid;gap:12px}
+.cbox .btn{text-align:center}
+footer{border-top:1px solid var(--line);padding:32px 0;color:var(--mute);font-size:15px}
+footer strong{display:block;color:var(--text);font:800 26px "Barlow Condensed",sans-serif}
+@media(prefers-reduced-motion:reduce){.ball,.shadow,.ticker div{animation:none}.ball{transform:translateY(-60px)}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="#top"><img class="shield" src="assets/logo.jpg" alt="" width="44" height="38">Mulewa Academy</a>
+  <nav aria-label="Main"><a href="#age-groups">Age groups</a><a href="#tournament">Tournament</a><a href="#card">Player card</a><a href="#partners">Partners</a><a class="cta" href="#join">Join us</a></nav>
+</div></header>
+
+<main id="top">
+<div class="hero">
+  <svg class="lines" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" fill="none" stroke="#fff" stroke-width="3"><circle cx="560" cy="250" r="150"/><line x1="560" y1="0" x2="560" y2="500"/><rect x="620" y="130" width="200" height="240"/></svg>
+  <div class="wrap">
+    <h1><span class="o">Mulewa</span><span class="g">Academy</span></h1>
+    <div class="row">
+      <div>
+        <p>Football for boys and girls aged 6 to 14, in Meanwood, Waterfalls. Fun, fair play and friendship, with a champion's mindset.</p>
+        <div class="btns"><a class="btn p" href="#join">Register your child</a><a class="btn s" href="#card">Make a player card</a></div>
+      </div>
+      <div class="stage" aria-hidden="true"><div class="shadow"></div><div class="ball"></div></div>
+    </div>
+  </div>
+</div>
+<div class="ticker" aria-hidden="true"><div>
+  <span>BRING YOUR SCOOTER</span>★<span>SHOW YOUR SKILLS</span>★<span>BE A CHAMPION</span>★<span>BOYS &amp; GIRLS 6–14</span>★<span>TROPHIES, MEDALS &amp; GREAT PRIZES</span>★
+  <span>BRING YOUR SCOOTER</span>★<span>SHOW YOUR SKILLS</span>★<span>BE A CHAMPION</span>★<span>BOYS &amp; GIRLS 6–14</span>★<span>TROPHIES, MEDALS &amp; GREAT PRIZES</span>★
+</div></div>
+
+<section id="about"><div class="wrap">
+  <h2 class="t">Where young players grow</h2>
+  <p class="lede">Mulewa Academy gives every child time on the ball, a team to belong to and a coach who cheers them on.</p>
+  <div class="stats">
+    <div><b>6–14</b>Years old</div><div><b>Boys + girls</b>All welcome</div><div><b>Fair play</b>On and off the pitch</div><div><b>Lusaka</b>Meanwood, Waterfalls</div>
+  </div>
+</div></section>
+
+<section id="age-groups" style="padding-top:0"><div class="wrap">
+  <h2 class="t">Find your squad</h2>
+  <p class="lede">Players train with children of a similar age, so everyone learns at the right pace.</p>
+  <div class="groups">
+    <div class="grp"><span class="age">6–8</span><h3>Little Strikers</h3><p>First touches, fun games and learning to love the ball.</p></div>
+    <div class="grp"><span class="age">9–11</span><h3>Rising Stars</h3><p>Passing, dribbling and playing together as a team.</p></div>
+    <div class="grp"><span class="age">12–14</span><h3>Champions</h3><p>Match skills, positioning and a winning mindset.</p></div>
+  </div>
+</div></section>
+
+<section id="tournament" class="alt"><div class="wrap event">
+  <div>
+    <h2 class="t">The football tournament</h2>
+    <p class="lede" style="margin-bottom:20px">Our big day is coming. The date is still to be announced, so register your interest now and we will message you first.</p>
+    <a class="btn p" href="https://wa.me/260972446061?text=Hello%20Mulewa%20Academy%2C%20please%20tell%20me%20when%20the%20tournament%20date%20is%20announced.">Tell me the date</a>
+  </div>
+  <div><img class="action" src="assets/action.jpg" alt="Children playing football at a Mulewa Academy match" width="552" height="278" loading="lazy">
+  <ul class="perks">
+    <li><i aria-hidden="true">🏆</i>Trophies for winning teams</li>
+    <li><i aria-hidden="true">🥇</i>Medals for players</li>
+    <li><i aria-hidden="true">🎁</i>Great prizes on the day</li>
+    <li><i aria-hidden="true">🛴</i>Bring your scooter and show your skills</li>
+  </ul></div>
+</div></section>
+
+<section id="card"><div class="wrap builder">
+  <div>
+    <h2 class="t">Make your player card</h2>
+    <p class="lede" style="margin-bottom:22px">Fill in the details and watch the card build live. Then send it to us on WhatsApp to start registration. Nothing is stored on this page.</p>
+    <form id="f" onsubmit="return false">
+      <label>Player name<input id="n" maxlength="22" placeholder="e.g. Chanda Mulenga" autocomplete="off"></label>
+      <div class="two">
+        <label>Age<select id="a"></select></label>
+        <label>Shirt number<input id="k" type="number" min="1" max="99" value="10"></label>
+      </div>
+      <label>Position<select id="p"><option>Striker</option><option>Winger</option><option>Midfielder</option><option>Defender</option><option>Goalkeeper</option></select></label>
+      <a id="send" class="btn p" target="_blank" rel="noopener" href="#">Send my card on WhatsApp</a>
+    </form>
+  </div>
+  <div class="card" id="c" aria-live="polite">
+    <div class="age2"><span id="ca">Age 10</span></div>
+    <div class="num" id="cn">10</div>
+    <div class="pos" id="cp">Striker</div>
+    <div class="pic" id="ci">M</div>
+    <div class="nm" id="cm">Your name</div>
+    <div class="club">Mulewa Academy FC</div>
+  </div>
+</div></section>
+
+<section id="partners" class="alt"><div class="wrap">
+  <h2 class="t">Back the next generation</h2>
+  <p class="lede">Local businesses can put their name beside a community that families trust. Talk to us about the tournament and the academy.</p>
+  <div class="tiers">
+    <div class="tier"><h3>Trophy partner</h3><p>Your brand on the tournament trophies and at the prize-giving.</p></div>
+    <div class="tier"><h3>Kit partner</h3><p>Your logo on team bibs and training kit seen by families every week.</p></div>
+    <div class="tier"><h3>Community partner</h3><p>Donate prizes, refreshments or equipment and be thanked on the day.</p></div>
+  </div>
+  <p style="margin-top:28px"><a class="btn p" href="https://wa.me/260972446061?text=Hello%20Mulewa%20Academy%2C%20I%20would%20like%20to%20discuss%20partnering%20with%20you.">Become a partner</a></p>
+</div></section>
+
+<section id="join"><div class="wrap contact">
+  <div>
+    <h2 class="t">Join Mulewa Academy</h2>
+    <p class="lede" style="margin:0">Call or message us to register your child, ask about training or hear the tournament date first.</p>
+  </div>
+  <div class="cbox">
+    <a class="btn p" href="https://wa.me/260972446061?text=Hello%20Mulewa%20Academy%2C%20I%20would%20like%20to%20register%20my%20child.">Message us on WhatsApp</a>
+    <a class="btn s" href="tel:+260972446061">Call +260 972 446 061</a>
+    <a class="btn s" href="tel:+260968188174">Call +260 968 188 174</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><strong>Mulewa Academy Football Club</strong>Meanwood, Waterfalls, Lusaka · <a href="tel:+260972446061">+260 972 446 061</a> · <a href="tel:+260968188174">+260 968 188 174</a><br>© 2026 Mulewa Academy Football Club</div></footer>
+
+<script>
+(function(){
+  var $=function(i){return document.getElementById(i)};
+  var a=$('a');for(var i=6;i<=14;i++){var o=document.createElement('option');o.value=i;o.textContent=i;if(i==10)o.selected=true;a.appendChild(o)}
+  function upd(){
+    var n=$('n').value.trim(),k=Math.min(99,Math.max(1,parseInt($('k').value,10)||10)),p=$('p').value,age=a.value;
+    $('cm').textContent=n||'Your name';
+    $('ci').textContent=(n?n.charAt(0):'M').toUpperCase();
+    $('cn').textContent=k;$('cp').textContent=p;$('ca').textContent='Age '+age;
+    var msg='Hello Mulewa Academy, I would like to register '+(n||'my child')+' (age '+age+', '+p+', shirt number '+k+').';
+    $('send').href='https://wa.me/260972446061?text='+encodeURIComponent(msg);
+  }
+  ['n','a','k','p'].forEach(function(i){$(i).addEventListener('input',upd)});
+  upd();
+})();
+</script>
+</body>
+</html>
